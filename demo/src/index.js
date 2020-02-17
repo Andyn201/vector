@@ -90,14 +90,8 @@ class Demo extends React.Component {
                 flexShrink: 0
               }}
             >
-              {links}{" "}
-              <span style={{ marginLeft: 10 }}>Version: {pjson.version}</span>{" "}
-              <Switch
-                label="Dark Mode"
-                checked={darkMode}
-                onChange={this.changeDarkMode}
-                style={{ margin: "0px 30px", marginTop: 4 }}
-              />
+
+             
             </div>
             <Route exact path="/" render={() => <Redirect to="/Editor" />} />
             <Route
