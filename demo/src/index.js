@@ -260,7 +260,7 @@ class WrapSimpleDemo extends React.Component {
     super(props);
     updateEditor(store, "DemoEditor", {
       readOnly: false,
-      sequenceData: exampleSequenceData
+      sequenceData: null
     });
   }
   render() {

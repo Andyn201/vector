@@ -80,7 +80,7 @@ export default class EditorDemo extends React.Component {
     };
     updateEditor(store, "DemoEditor", {
       readOnly: false,
-      sequenceData: exampleSequenceData
+      sequenceData: ""
     });
   }
   componentDidUpdate() {
