@@ -31,16 +31,7 @@ export default [
     text: "File",
     "data-test": "file",
     submenu: [
-      {
-        cmd: "newSequence",
-        "data-test": "newSequence"
-      },
-      "renameSequence",
-      "saveSequence",
-      "saveSequenceAs",
-      "deleteSequence",
-      "duplicateSequence",
-      "--",
+     
       { cmd: "toggleReadOnlyMode", shouldDismissPopover: false },
       "--",
       "importSequence",
@@ -50,7 +41,6 @@ export default [
         submenu: [
           { cmd: "exportSequenceAsGenbank" },
           { cmd: "exportSequenceAsFasta" },
-          { cmd: "exportSequenceAsTeselagenJson" }
         ]
       },
       "--",
@@ -127,14 +117,5 @@ export default [
     ]
   },
   // { isMenuSearch: true }
-  {
-    text: "Help",
-    submenu: [
-      { isMenuSearch: true },
-      "--",
-      "about",
-      { cmd: "versionNumber", shouldDismissPopover: false },
-      "hotkeyDialog"
-    ]
-  }
+  
 ];
