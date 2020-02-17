@@ -1,0 +1,46 @@
+.veRowView {
+  overflow-x: visible;
+}
+
+.veRowItem {
+  overflow-x: visible;
+}
+
+/* .veRowItem div {
+  overflow-x: visible;
+} */
+
+.cutsiteLabelSelectionLayer {
+  background: none !important;
+  height: 119%;
+  opacity: 1;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.cutsiteLabelSelectionLayer.isTrueStart {
+  border-left: 2px solid black;
+}
+
+.cutsiteLabelSelectionLayer.isTrueEnd {
+  border-right: 2px solid black;
+}
+
+.veRowViewCutsite {
+  margin-left: -2px;
+  background: black !important;
+}
+
+.veRowViewOrfsContainer {
+  z-index: 20;
+}
+/* TNR: ENABLING THIS WILL BREAK SMOOTH SCROLLING FOR THE ROW VIEW
+.rowViewTextContainer {
+  user-select: none;
+} 
+*/
+
+/* .rowViewTextContainer {
+  user-select: none;
+}  */
+/*# sourceMappingURL= style.css.map */

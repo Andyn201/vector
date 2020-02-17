@@ -1,0 +1,35 @@
+.veLabels {
+  font-weight: lighter;
+}
+
+.labelTspan:hover {
+  fill: red !important;
+}
+
+.labelText {
+  cursor: pointer;
+}
+
+.veLabels .veAnnotationHovered:not(.topLevelLabelGroup) {
+  font-weight: bold;
+  text-decoration: underline;
+  fill: black !important;
+}
+
+.veAnnotationHovered.veCutsiteLabel {
+  font-weight: bold;
+  text-decoration: underline;
+  fill: black !important;
+}
+
+.bp3-dark .veLabels .veAnnotationHovered:not(.topLevelLabelGroup) {
+  fill: white !important;
+  font-weight: normal;
+}
+.bp3-dark .veLabels .veAnnotationHovered rect {
+  fill: rgb(64, 64, 92) !important;
+}
+.veLabelLine {
+  opacity: 0.1;
+}
+/*# sourceMappingURL= style.css.map */

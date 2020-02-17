@@ -1,0 +1,104 @@
+.bp3-dark #circularViewAxis:not(.veAxisFill) {
+  fill: #293742 !important;
+  stroke: #f5f8fa !important;
+}
+
+.bp3-dark .veEditor {
+  background: #293742 !important;
+}
+
+.bp3-dark .veEditor .ve-draggable-tabs {
+  color: #f5f8fa !important;
+}
+
+.bp3-dark .veCaretSVG,
+.bp3-dark .veRowViewAxis path,
+.bp3-dark .veRowViewFeature path,
+.bp3-dark .veRowViewPartsContainer path,
+.bp3-dark .veLabelLine,
+.bp3-dark .veFeature,
+.bp3-dark .vePart {
+  stroke: #f5f8fa !important;
+}
+
+.bp3-dark .veEditor .veRowViewCaret {
+  background: #f5f8fa !important;
+}
+
+.bp3-dark .veEditor text {
+  fill: #f5f8fa;
+}
+
+.bp3-dark .cutsiteLabelSelectionLayer {
+  background: none !important;
+  height: 119%;
+  opacity: 1;
+  border-top: 2px solid #f5f8fa;
+  border-bottom: 2px solid #f5f8fa;
+}
+
+.bp3-dark .cutsiteLabelSelectionLayer.isTrueStart {
+  border-left: 2px solid #f5f8fa;
+}
+
+.bp3-dark .cutsiteLabelSelectionLayer.isTrueEnd {
+  border-right: 2px solid #f5f8fa;
+}
+
+.bp3-dark .veRowViewCutsite {
+  margin-left: -2px;
+  background: #f5f8fa !important;
+}
+
+.bp3-dark .veRowViewPartsContainer text,
+.bp3-dark .veLabelText.black {
+  fill: #f5f8fa !important;
+}
+
+.bp3-dark .veLabelText.purple {
+  fill: #ac68cc !important;
+}
+
+.bp3-dark .tag-selection.selected {
+  border-color: #f5f8fa !important;
+}
+
+.bp3-dark .veLinearView text {
+  fill: #f5f8fa !important;
+}
+
+.bp3-dark .veAxis > g {
+  fill: #f5f8fa !important;
+}
+
+.bp3-dark .menu-bar {
+  background: none !important;
+}
+
+.bp3-dark .alignmentViewTrackContainer text,
+.bp3-dark .veRowViewAxis text,
+.bp3-dark .translationLayer text {
+  stroke: #f5f8fa !important;
+  -webkit-font-smoothing: antialiased;
+}
+
+.bp3-dark .step-group.active .step-text {
+  color: #2b95d6 !important;
+}
+
+.bp3-dark .step-group.active .step-mark {
+  background-color: #2b95d6 !important;
+  border-color: #2b95d6 !important;
+}
+
+.bp3-dark .tool-select-item:hover {
+  background: #0e5a8a !important;
+}
+
+.bp3-dark .alignmentViewTrackContainer .rowViewTextContainer text {
+  fill: #182026 !important;
+}
+
+.bp3-dark .veWhiteBackground {
+  background: #293742;
+}
