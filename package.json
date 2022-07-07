@@ -96,7 +96,7 @@
     "inquirer": "^6.2.2",
     "install-peerdeps": "1.10.2",
     "lint-staged": "9.4.2",
-    "moment": "2.24.0",
+    "moment": "2.29.4",
     "nwb": "0.23.0",
     "prettier": "1.18.2",
     "react": "16.10.2",
