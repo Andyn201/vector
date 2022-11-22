@@ -97,7 +97,7 @@
     "install-peerdeps": "1.10.2",
     "lint-staged": "9.4.2",
     "moment": "2.24.0",
-    "nwb": "0.23.0",
+    "nwb": "0.25.2",
     "prettier": "1.18.2",
     "react": "16.10.2",
     "react-addons-perf": "^15.4.2",
